@@ -3,27 +3,33 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Weather Widget</title>
+    <title>Weather Page - made by me</title>
+    <script
+      src="https://kit.fontawesome.com/b757c0228b.js"
+      crossorigin="anonymous"
+    ></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="weatherApp">
-      <div class="title">
-        <h1>Weather App</h1>
-        <input id="cityValue" type="text" placeholder="Enter City Name" />
-        <br />
+    <div class="main">
+      <h1>WEATHER PAGE</h1>
+      <div class="input1">
+        <input id="cityvalue" type="search" placeholder="Enter your city" />
         <button onclick="search()">Search</button>
       </div>
 
       <div class="container">
-        <div class="weatherDiv">
-          <div class="weatherInfo">
-            <h1 id="cityName">City Name</h1>
-            <h2 id="countryName">Country</h2>
-            <h1 id="temperature">0</h1>
-          </div>
-          <div class="time"></div>
+        <div class="box1">
+          <h2 id="cityname"></h2>
+          <p id="countryname"></p>
+          <img
+            id="logo"
+            src="https://media.giphy.com/media/zotwjIGhEIUzC/giphy.gif"
+            alt=""
+          />
+          <h1><span id="temperature"></span> <sup>o</sup>C</h1>
         </div>
+        <div class="box2"></div>
       </div>
     </div>
     <script src="weather.js"></script>

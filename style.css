@@ -1,61 +1,87 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-
-.weatherApp{
-    background-image: url('background.jpg');
+.main{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.171)),url(./bgc1.jpg);
     height: 100vh;
-    background-size: cover;
+    width: 100%;
     background-position: center;
+    background-size: cover;
 }
-
-.title{
+.main h1{
     text-align: center;
-}
-
-.title h1{
-    font-size: 48px;
-    color: rgb(165, 209, 213);
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
-
-.title input{
-    height: 35px;
-    width: 400px;
-    border: none;
-    background-color: transparent;
-    border-radius: 5px;
-    border-bottom: 1px solid whitesmoke;
     color: white;
-    outline: none;
-    margin: 10px 0px;
+    padding-top: 50px;
+    padding-bottom: 20px;
+    font-size: 50px;
+    font-style: italic;
 }
-
-.title button{
-  background-color: rgba(130, 188, 188, 0.42);
-  color: white;
-  padding: 10px 160px;
-  border-radius: 10px;
-  border: none;
-  margin: 5px  0px;
-  font-size: large;
-  font-weight: bold;
-}
-
 .container{
-    display: flex;
-    justify-content: center;
-    margin-top: 15px;
+    height: 350px;
+    width: 500px;
+    margin: auto;
+    /* background-color: yellow; */
 }
-.weatherDiv{
-    width: 25%;
-}
-.weatherInfo{
-    background: linear-gradient(rgba(0,0,0,0.6), rgba(0,0,0,0.6)), url('background2.jpg');
-    height: 40vh;
-    background-size: cover;
-    background-position: center;
-    color: whitesmoke;
+.input1{
     text-align: center;
+    /* border: 2px solid yellow; */
+    margin-bottom: 30px;
+    height: 60px;
+    overflow: hidden;
+}
+input{
+    background-color: transparent;
+    height: 60px;
+    width: 500px;
+    outline: none;
+    border: 1px solid white;
+    border-radius: 40px 0 0 40px;
+    margin-bottom: 30px;
+    padding-left: 25px;
+    color: white;
+    font-size: 20px;
+    cursor: pointer;
+}
+.input1 ::placeholder{
+    color: white;
+}
+button{
+    height: 65px;
+    width: 120px;
+    border-radius: 0 40px 40px  0px;
+    border: 1px solid white;
+    cursor: pointer;
+    
+
+}
+.box1{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.511),rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.516)),url(./sunset-2080072_1280.jpg);
+    height: 390px;
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    text-align: center;
+    color: white;
+}
+.box1 h1{
+    font-size: 70px;
+    /* border: 1px solid white; */
+    padding: 0px;
+}
+.box1 h2{
+    font-size: 35px;
+    padding-top: 25px;
+    padding-bottom: 20px;
+}
+.box1 p{
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.box1 h3{
+    font-size: 70px;
+}
+#logo{
+    height: 120px;
 }
