@@ -12,7 +12,7 @@ A simple web application that allows users to check the weather for a specified 
 - [How to Use](#how-to-use)
 - [API Key](#api-key)
 - [Technologies Used](#technologies-used)
-- [Concepts Covered](#concepts)
+- [Concepts Covered](#concepts-covered)
 
 ## Demo
 
