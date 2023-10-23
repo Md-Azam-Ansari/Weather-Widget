@@ -16,7 +16,7 @@ A simple web application that allows users to check the weather for a specified 
 
 ## Demo
 
-![Uploading image.png…]()
+![image](https://github.com/Md-Azam-Ansari/Weather-Widget/assets/146065775/88ebe873-dafa-4fbd-8fb1-04dc7ee195f4)
 
 
 ## Features
