@@ -16,6 +16,9 @@ A simple web application that allows users to check the weather for a specified 
 
 ## Demo
 
+![Uploading image.png…]()
+
+
 ## Features
 
 - Search for weather information by city name.
