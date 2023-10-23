@@ -1,7 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family:'Poppins', sans-serif;
 }
 .main{
     background-image: linear-gradient(rgba(0, 0, 0, 0.884),rgba(0, 0, 0, 0.301),rgba(0, 0, 0, 0.171)),url(background.jpg);
@@ -11,12 +11,13 @@
     background-size: cover;
 }
 .main h1{
-    text-align: center;
     color: white;
-    padding-top: 50px;
     padding-bottom: 20px;
-    font-size: 50px;    
-    font-style: italic;
+    font-size: 25px;
+    font-weight:bold;
+    font-family: 'Poppins';
+    margin-left: 18px;
+
 }
 .container{
     height: 350px;
@@ -28,6 +29,7 @@
     text-align: center;
     /* border: 2px solid yellow; */
     margin-bottom: 30px;
+    margin-top: 35px;
     height: 60px;
     overflow: hidden;
 }
@@ -59,13 +61,15 @@ button{
 
 }
 .box1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.511),rgba(0, 0, 0, 0.452),rgba(0, 0, 0, 0.516)),url(background2.jpg);
-    height: 390px;
-    width: 100%;
+    background-image: linear-gradient(135deg, #00feba, #5b548a);
+    width: 90%;
+    max-width: 470px;
     background-position: center;
-    background-size: cover;
     text-align: center;
     color: white;
+    border-radius: 20px;
+    text-align: center;
+    padding: 40px 35px;
 }
 .box1 h1{
     font-size: 70px;
@@ -86,4 +90,35 @@ button{
 }
 #logo{
     height: 120px;
+}
+
+.weather-icon{
+    width: 170px;
+    margin-top: 30px;
+}
+
+.details{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    margin-top: 50px;
+}
+.col{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+.col img{
+    width: 40px;
+    margin-right: 10px;
+}
+
+.humidity, .wind{
+    font-size: 28px;
+    margin-top: -6px;
+}
+.box1{
+    display: none;
 }
